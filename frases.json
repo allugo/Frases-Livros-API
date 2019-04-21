@@ -1,0 +1,16 @@
+{
+    "frases": [
+        {
+            "id": 1,
+            "frase": "Pode se encontrar a felicidade mesmo nas horas mais sombrias, se a pessoa se lembrar de acender a luz.",
+            "livro": "Harry Potter e o Prisioneiro de Azkaban",
+            "autor": "JK Rowling"
+        },
+        {
+            "id": 2,
+            "frase": "Esperança é a única coisa mais forte que o medo. Um pouco de esperança é eficaz, muita esperança é perigoso. Faíscas são boas enquanto são contidas.",
+            "livro": "Jogos Vorazes",
+            "autor": "Suzanne Collins"
+        }
+    ]
+}
