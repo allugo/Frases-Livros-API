@@ -11,6 +11,12 @@
             "frase": "Esperança é a única coisa mais forte que o medo. Um pouco de esperança é eficaz, muita esperança é perigoso. Faíscas são boas enquanto são contidas.",
             "livro": "Jogos Vorazes",
             "autor": "Suzanne Collins"
+        },
+        {
+            "id": 3,
+            "frase": "Tu te tornas eternamente responsável por aquilo que cativas.",
+            "livro": "O Pequeno Príncipe",
+            "autor": "Antoine de Saint-Exupéry"
         }
     ]
 }
