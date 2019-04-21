@@ -1,2 +1,5 @@
-# Frases-Livros-API
-Uma API com várias frases de livros.
+# AlluGo! - API de Frases de Livros
+Uma API em NodeJS com várias frases de livros.
+
+Link: <b>em breve!</b>
+Rotas: <b>em breve!</b>
