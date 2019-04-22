@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/allugo/Frases-Livros-API/issues"
   },
-  "homepage": "https://github.com/allugo/Frases-Livros-API#readme"
+  "homepage": "https://github.com/allugo/Frases-Livros-API#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
