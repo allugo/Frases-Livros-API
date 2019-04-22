@@ -13,7 +13,7 @@ const listener = app.listen(process.env.PORT, function() {
   console.log('Ok Computer. Port: ' + listener.address().port);
 });
 
-app.get('/books', function (req, res) 
+app.get('/frases', function (req, res) 
 {
-    
+    res.send(search.getAll());
 });

@@ -43,5 +43,8 @@ module.exports = {
 
         return found;
     },
+    getAll: function(){
+        return frases;
+    }
 }
 
