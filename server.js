@@ -20,5 +20,6 @@ app.get('/frases', function (req, res)
 
 app.get('/fraseid', function (req, res)
 {
+    console.log(req.query.id + typeof req.query.id);
     res.send(search.findByID(req.query.id));
 });
