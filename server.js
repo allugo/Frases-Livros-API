@@ -17,3 +17,8 @@ app.get('/frases', function (req, res)
 {
     res.send(search.getAll());
 });
+
+app.get('fraseid', function (req, res)
+{
+    res.send(search.findByID(req.query.id));
+});
