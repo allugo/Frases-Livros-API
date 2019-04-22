@@ -1,0 +1,25 @@
+{
+  "name": "frases-livros-api",
+  "version": "1.0.0",
+  "description": "api de frases de livro loca",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allugo/Frases-Livros-API.git"
+  },
+  "keywords": [
+    "node",
+    "books",
+    "locuras"
+  ],
+  "author": "Saulo Joab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allugo/Frases-Livros-API/issues"
+  },
+  "homepage": "https://github.com/allugo/Frases-Livros-API#readme"
+}
