@@ -15,30 +15,5 @@ const listener = app.listen(process.env.PORT, function() {
 
 app.get('/books', function (req, res) 
 {
-    // Connecting to the database.
-    db.getConnection(function (err, connection) 
-    {
-      // In case we find some error.
-      if (err)
-      {
-         console.log(err);
-         connection.release();
-         return;
-      }
     
-      // Executing our query.
-      connection.query('SELECT * FROM livro', function (error, results, fields) 
-      {
-        // In case we find some error.
-        if (error)
-        {
-          console.log(error);
-          connection.release();
-          return;
-        }
-
-        res.send(results)
-        connection.release();
-      });
-    });
 });
