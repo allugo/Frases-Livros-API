@@ -30,19 +30,19 @@ app.post('/procurarFrase', function (req, res)
 {
     console.log("Buscando por Frase!");
     console.log("Frase procurada: " + req.body.frase);
-    res.send(search.findByPhrase(parseInt(req.body.frase)));
+    res.send(search.findByPhrase(req.body.frase));
 });
 
 app.post('/frasesPorAutor', function (req, res)
 {
     console.log("Buscando por Autor!");
     console.log("Autor procurado: " + req.body.autor);
-    res.send(search.findByAuthor(parseInt(req.body.autor)));
+    res.send(search.findByAuthor(req.body.autor));
 });
 
 app.post('/frasesPorLivro', function (req, res)
 {
     console.log("Buscando por Livro!");
     console.log("Livro procurado: " + req.body.livro);
-    res.send(search.findByBook(parseInt(req.body.livro)));
+    res.send(search.findByBook(req.body.livro));
 });
