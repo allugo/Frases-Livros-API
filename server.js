@@ -20,6 +20,20 @@ app.get('/frases', function (req, res)
 
 app.get('/fraseid', function (req, res)
 {
-    console.log(req.query.id + typeof req.query.id);
     res.send(search.findByID(parseInt(req.query.id)));
+});
+
+app.post('/procurarFrase', function (req, res)
+{
+    res.send(search.findByPhrase(parseInt(req.body.frase)));
+});
+
+app.post('/frasesPorAutor', function (req, res)
+{
+    res.send(search.findByAuthor(parseInt(req.body.autor)));
+});
+
+app.post('/frasesPorLivro', function (req, res)
+{
+    res.send(search.findByBook(parseInt(req.body.livro)));
 });
