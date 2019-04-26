@@ -1,8 +1,11 @@
 let search = require('./functions');
 const express = require('express');
+const bodyParser = require('body-parser');
 
 // Iniciando o app.
 const app = express();
+
+app.use(bodyParser.json());
 
 app.get('/', function(request, response) {
   console.log("OK Computer");
