@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/allugo/Frases-Livros-API#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.16.4"
   }
 }
