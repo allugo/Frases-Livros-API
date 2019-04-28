@@ -1,19 +1,24 @@
 # AlluGo! - API de Frases de Livros :book:
 Uma API em NodeJS com várias frases de livros.
-Preview: <b>em breve!</b>
+- Preview: <b>em breve!</b>
+- Exemplos de uso: <a href="https://github.com/allugo/Frases-Livros-API/tree/master/exemplos">aqui!</a>
 
 Link: <a href="https://allugofrases.herokuapp.com">aqui!<a/><br>
 # Rotas:
-### - frases
+
+### - /frases
   Retorna todas as frases cadastradas no sistema.
   - ex: <a href="https://allugofrases.herokuapp.com/frases">https://allugofrases.herokuapp.com/frases</a>
-### - fraseAleatoria
+
+### - /fraseAleatoria
   Retorna uma frase aleatória.
-  - ex: <a href="https://allugofrases.herokuapp.com/fraseAleatoria">https://allugofrases.herokuapp.com/fraseAleatoria"></a>
-### - fraseid
+  - ex: <a href="https://allugofrases.herokuapp.com/fraseAleatoria">https://allugofrases.herokuapp.com/fraseAleatoria</a>
+
+### - /fraseid
   Busca uma frase pelo ID dessa frase.
   - ex: <a href="https://allugofrases.herokuapp.com/fraseid?id=1">https://allugofrases.herokuapp.com/fraseid?id=1</a>
-### - procurarFrase (POST)
+  
+### - /procurarFrase (POST)
   Busca uma frase no sistema que contenha uma determinada string.
   - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/procurarFrase</a>
 ```py
@@ -25,4 +30,18 @@ def procurarFrase(frase):
 
 if (__name__ == "__main__"):
   print(procurarFrase("Pode se encontrar a felicidade mesmo nas horas mais sombrias"));
+```
+
+### - /frasesPorAutor (POST)
+  Busca todas as frases de um determinado autor.
+  - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/frasesPorAutor</a>
+```py
+# Exemplo em Python.
+def frasesPorAutor(autor):
+    data = {"autor": autor}
+    get = requests.post(url="http://allugofrases.herokuapp.com/frasesPorAutor", json=data, headers={'Content-Type': "application/json", 'Accept': "application/json"});
+    return get.json();
+
+if (__name__ == "__main__"):
+  print(frasesPorAutor("JK Rowling"));
 ```
