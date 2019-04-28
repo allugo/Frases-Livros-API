@@ -30,4 +30,3 @@ def frasesPorLivro(livro):
 
 if (__name__ == "__main__"):
     print("Verifique as funções de exemplo do código :)");
-    fraseAleatoria();
