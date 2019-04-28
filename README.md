@@ -14,7 +14,7 @@
   - ex: <a href="https://allugofrases.herokuapp.com/fraseAleatoria">https://allugofrases.herokuapp.com/fraseAleatoria</a>
 
 ### - /fraseid
-  Busca uma frase pelo ID dessa frase.
+  Busca uma frase pelo ID da mesma.
   - ex: <a href="https://allugofrases.herokuapp.com/fraseid?id=1">https://allugofrases.herokuapp.com/fraseid?id=1</a>
   
 ### - /procurarFrase (POST)
