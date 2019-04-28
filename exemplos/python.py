@@ -5,6 +5,10 @@ def Frases():
     get = requests.get("http://allugofrases.herokuapp.com/frases");
     return get.json();
 
+def fraseAleatoria():
+    get = requests.get("http://allugofrases.herokuapp.com/fraseAleatoria");
+    return get.json();
+
 def fraseID(id):
     get = requests.get("http://allugofrases.herokuapp.com/fraseid?id=" + id);
     return get.json();
@@ -26,3 +30,4 @@ def frasesPorLivro(livro):
 
 if (__name__ == "__main__"):
     print("Verifique as funções de exemplo do código :)");
+    fraseAleatoria();

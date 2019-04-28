@@ -45,6 +45,10 @@ module.exports = {
     },
     getAll: function(){
         return frases;
+    },
+    getRandom: function(){
+        frase = frases[Math.floor(Math.random() * frases.length)];
+        return frase;
     }
 }
 

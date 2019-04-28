@@ -21,6 +21,11 @@ app.get('/frases', function (req, res)
     res.send(search.getAll());
 });
 
+app.get('/fraseAleatoria', function (req, res) 
+{
+    res.send(search.getRandom());
+});
+
 app.get('/fraseid', function (req, res)
 {
     res.send(search.findByID(parseInt(req.query.id)));
