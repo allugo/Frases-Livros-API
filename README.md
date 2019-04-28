@@ -1,9 +1,8 @@
 # AlluGo! - API de Frases de Livros :book:
-Uma API em NodeJS com várias frases de livros.
+:pencil: Uma API em NodeJS com várias frases de livros.
 - Preview: <b>em breve!</b>
 - Exemplos de uso: <a href="https://github.com/allugo/Frases-Livros-API/tree/master/exemplos">aqui!</a>
 
-Link: <a href="https://allugofrases.herokuapp.com">aqui!<a/><br>
 # Rotas:
 
 ### - /frases
