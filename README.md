@@ -13,10 +13,11 @@ Link: <a href="https://allugofrases.herokuapp.com">aqui!<a/><br>
 ### - fraseid
   Busca uma frase pelo ID dessa frase.
   - ex: <a href="https://allugofrases.herokuapp.com/fraseid?id=1">https://allugofrases.herokuapp.com/fraseid?id=1</a>
-### - procurarFrase (GET)
+### - procurarFrase (POST)
   Busca uma frase no sistema que contenha uma determinada string.
   - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/procurarFrase</a>
 ```py
+# Exemplo em Python.
 def procurarFrase(frase):
     data = {"frase": frase}
     get = requests.post(url="http://allugofrases.herokuapp.com/procurarFrase", json=data, headers={'Content-Type': "application/json", 'Accept': "application/json"});
