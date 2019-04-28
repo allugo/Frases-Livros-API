@@ -1,4 +1,4 @@
-# AlluGo! - API de Frases de Livros :book:
+# <a href="http://instagram.com/allugo_app">AlluGo!</a> - API de Frases de Livros :book:
 :pencil: Uma API em NodeJS com várias frases de livros.
 - Preview: <b>em breve!</b>
 - Exemplos de uso: <a href="https://github.com/allugo/Frases-Livros-API/tree/master/exemplos">aqui!</a>
@@ -43,4 +43,18 @@ def frasesPorAutor(autor):
 
 if (__name__ == "__main__"):
   print(frasesPorAutor("JK Rowling"));
+```
+
+### - /frasesPorLivro (POST)
+  Busca todas as frases de um determinado livro.
+  - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/frasesPorLivro</a>
+```py
+# Exemplo em Python.
+def frasesPorLivro(livro):
+    data = {"livro": livro}
+    get = requests.post(url="http://allugofrases.herokuapp.com/frasesPorLivro", json=data, headers={'Content-Type': "application/json", 'Accept': "application/json"});
+    return get.json();
+
+if (__name__ == "__main__"):
+  print(frasesPorLivro("Harry Potter e o Prisioneiro de Azkaban"));
 ```
