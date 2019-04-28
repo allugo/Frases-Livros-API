@@ -13,8 +13,9 @@ Link: <a href="https://allugofrases.herokuapp.com">aqui!<a/><br>
 ### - fraseid
   Busca uma frase pelo ID dessa frase.
   - ex: <a href="https://allugofrases.herokuapp.com/fraseid?id=1">https://allugofrases.herokuapp.com/fraseid?id=1</a>
-### - procurarFrase
+### - procurarFrase (GET)
   Busca uma frase no sistema que contenha uma determinada string.
+  - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/procurarFrase</a>
 ```py
 def procurarFrase(frase):
     data = {"frase": frase}
