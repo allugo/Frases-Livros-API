@@ -1,6 +1,6 @@
 # <a href="http://instagram.com/allugo_app">AlluGo!</a> - API de Frases de Livros :book:
 :pencil: Uma API em NodeJS com várias frases de livros.
-- Preview: <a href="allugo-frases.herokuapp.com">allugo-frases.herokuapp.com</a>
+- Preview: <a href="http://allugo-frases.herokuapp.com">http://allugo-frases.herokuapp.com</a>
 - Exemplos de uso: <a href="https://github.com/allugo/Frases-Livros-API/tree/master/exemplos">aqui!</a>
 
 # Rotas:
