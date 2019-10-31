@@ -72,11 +72,11 @@ if (__name__ == "__main__"):
 # Routes
 
 ### - /frases
-  Returns all the quotes registered in the API
+  Returns all quotes registered in the API.
   - ex: <a href="https://allugofrases.herokuapp.com/frases">https://allugofrases.herokuapp.com/frases</a>
 
 ### - /fraseAleatoria
-  Return a random quote.
+  Returns a random quote.
   - ex: <a href="https://allugofrases.herokuapp.com/fraseAleatoria">https://allugofrases.herokuapp.com/fraseAleatoria</a>
 
 ### - /fraseid
@@ -84,7 +84,7 @@ if (__name__ == "__main__"):
   - ex: <a href="https://allugofrases.herokuapp.com/fraseid?id=1">https://allugofrases.herokuapp.com/fraseid?id=1</a>
   
 ### - /procurarFrase (POST)
-  Search a quote in the API with specifc string
+  Search a quote in the API with a specific string.
   - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/procurarFrase</a>
 ```py
 # Python Example.
@@ -98,7 +98,7 @@ if (__name__ == "__main__"):
 ```
 
 ### - /frasesPorAutor (POST)
-  Search all the quotes by an specific author
+  Search all the quotes by an specific author.
   - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/frasesPorAutor</a>
 ```py
 # Python Example.
@@ -112,8 +112,7 @@ if (__name__ == "__main__"):
 ```
 
 ### - /frasesPorLivro (POST)
-  Search al the quotes by an specific book
-  Busca todas as frases de um determinado livro.
+  Search all the quotes by an specific book.
   - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/frasesPorLivro</a>
 ```py
 # Python Example.
