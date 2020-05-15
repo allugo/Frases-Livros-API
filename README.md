@@ -24,7 +24,7 @@
   Busca uma frase pelo ID da mesma.
   - ex: <a href="https://allugofrases.herokuapp.com/frases/find/1">https://allugofrases.herokuapp.com/frases/find/1</a>
   
-### - /procurarFrase (POST)
+### - /frases/search (POST)
   Busca uma frase no sistema que contenha uma determinada string.
   - url: <a href="javascript:void(0)">http://allugofrases.herokuapp.com/frases/search</a>
 ```py
